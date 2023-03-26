@@ -1,0 +1,9 @@
+Instrucoes de utilizacao do codigo:
+
+O codigo utiliza a api "alpha vantage" que possui uma restrição de 5 requests por minuto,
+logo existe um tempo de carregamento no programa que é de 30 segundos, para que o proximo
+grafico seja plotado normalmente.
+Não se pode clicar para abrir dois graficos ao mesmo tempo pois isso ocasionara um erro
+e o sistema sera fechado.
+Para atualizar o grafico, feche o grafico atual e clique no botao pra abri-lo novamente.
+O sistema é atualizado diaramente de acordo a api.
